@@ -31,6 +31,7 @@ class Window(Frame):
         #with that, we want to then run init_window, which doesn't yet exist
         self.init_window()
 
+    ''' Addition from previous code -- intro_1.py '''
     #Creation of init_window
     def init_window(self):
 
@@ -40,6 +41,7 @@ class Window(Frame):
         # allowing the widget to take the full space of the root window
         self.pack(fill=BOTH, expand=1)
 
+        ''' Addition from previous code -- intro_3.py '''
         # creating a menu instance
         menu = Menu(self.master)
         self.master.config(menu=menu)
@@ -54,6 +56,7 @@ class Window(Frame):
         #added "file" to our menu
         menu.add_cascade(label="File", menu=file)
 
+        ''' Addition from previous code -- intro_4.py '''
         # create the file object)
         edit = Menu(menu)
 
@@ -79,7 +82,7 @@ class Window(Frame):
         text = Label(self, text="Hey there good lookin!")
         text.pack()
 
-
+    ''' Addition from previous code -- intro_2.py '''
     def client_exit(self):
         exit()
 

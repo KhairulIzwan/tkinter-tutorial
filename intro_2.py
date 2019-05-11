@@ -16,6 +16,7 @@ class Window(Frame):
         self.master = master
         self.init_window()
 
+    ''' Addition from previous code -- intro_1.py '''
     #Creation of init_window
     def init_window(self):
 

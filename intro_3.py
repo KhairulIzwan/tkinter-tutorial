@@ -25,6 +25,7 @@ class Window(Frame):
         #with that, we want to then run init_window, which doesn't yet exist
         self.init_window()
 
+    ''' Addition from previous code -- intro_1.py '''
     #Creation of init_window
     def init_window(self):
 
@@ -40,6 +41,7 @@ class Window(Frame):
         # placing the button on my window
         quitButton.place(x=0, y=0)
 
+    ''' Addition from previous code -- intro_2.py '''
     def client_exit(self):
         exit()
 
