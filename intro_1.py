@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 Basic of Tkinter -- Intro
 '''
